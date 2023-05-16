@@ -1,4 +1,4 @@
-package com.devsuperior.dslist.projections;
+package com.devsuperior.dslist.domain.projections;
 
 public interface GameMinProjection {
     Long getId();

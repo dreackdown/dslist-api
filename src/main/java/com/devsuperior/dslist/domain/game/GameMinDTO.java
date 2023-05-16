@@ -1,6 +1,6 @@
 package com.devsuperior.dslist.domain.game;
 
-import com.devsuperior.dslist.projections.GameMinProjection;
+import com.devsuperior.dslist.domain.projections.GameMinProjection;
 
 public record GameMinDTO(Long id, String title, Integer gameYear, String imgUrl, String shortDescription) {
     public GameMinDTO(Game game) {
