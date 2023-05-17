@@ -1,7 +1,6 @@
 package com.devsuperior.dslist.domain.game;
 
 import com.devsuperior.dslist.infra.exceptions.ResourceNotFoundException;
-import com.devsuperior.dslist.domain.projections.GameMinProjection;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
